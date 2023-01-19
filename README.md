@@ -4,10 +4,14 @@ A simple command-line utility to bookmark directories.
 
 ![screenshot][screenshot]
 
+## Demo
+
+![bookmarks_dot_sh_demo][demo]
+
 ## Motivation
 
-- I was tired of `cd`'ing into my frequently visited directories by typing/tab completing the complete path every time.
-- I wanted to write some shell script :smile:.
+-   I was tired of `cd`'ing into my frequently visited directories by typing/tab completing the complete path every time.
+-   I wanted to write some shell script :smile:.
 
 ## Dependencies
 
@@ -19,7 +23,7 @@ A simple command-line utility to bookmark directories.
 
 ## Install instructions
 
-- Copy `bookmarks.sh` file somewhere in your `$PATH`, and make it executable. (I keep the script in `~/.local/bin`)
+-   Copy `bookmarks.sh` file somewhere in your `$PATH`, and make it executable. (I keep the script in `~/.local/bin`)
 
     for example:
 
@@ -32,7 +36,7 @@ A simple command-line utility to bookmark directories.
 
 ## Uninstall instructions
 
-- Simply remove the script from your path and the bookmark file.
+-   Simply remove the script from your path and the bookmark file.
 
     for example:
 
@@ -98,10 +102,6 @@ if command -v bookmarks.sh &> /dev/null; then
     alias blist='eval cd $(bookmarks.sh -l)' # use single quotes to evaluate
 fi
 ```
-
-### Demo
-
-![bookmarks_dot_sh_demo][demo]
 
 [screenshot]: https://user-images.githubusercontent.com/54745129/204101118-ee1de797-93fe-4b3a-b962-3804978f0789.png
 [demo]: https://user-images.githubusercontent.com/54745129/204107707-543c3d82-b6f1-4eaa-af87-b9027a4ed0fe.gif
